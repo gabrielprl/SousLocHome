@@ -72,7 +72,7 @@ main{
         text-align: center;
         font-family: sans-serif;
         text-transform: uppercase;
-        font-size: calc(15px + 1vw);
+        font-size: calc(11.6px + 1vw);
         margin-top: 30px;
         margin-bottom: 40px;
         span{
@@ -96,7 +96,8 @@ main{
     .test{
       background: #F4F4FA;
       margin-top: 75px;
-      height: 625px;
+      padding-bottom: 75px;
+      height: auto;
       h2{
         text-align: center;
         text-transform: uppercase;
@@ -109,15 +110,17 @@ main{
         }
       }
       .container_bulles{
-        display: flex;
-        flex-direction: row;
+        // display: flex;
+        // flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 350px);
         justify-content: center;
         margin: auto;
         gap: 50px;
         width: 95%;
         .bulles{
           background: #fff;
-          width: 30%;
+          width: 100%;
           height: 385px;
           border-radius: 80px;
           border-top-left-radius: 0;
@@ -208,9 +211,6 @@ main{
 
 
 
-@media screen and (min-width: 1024px) {
-  .container_bulles{
-    display: flex;
-    flex-direction: column;
-  }
+@media screen and (max-width: 1024px) {
+
 }
