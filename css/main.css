@@ -65,7 +65,7 @@ header nav .links ul li a {
   color: #000;
 }
 header nav .links ul li a:hover {
-  color: #69a4da;
+  color: #E6A469;
   transition: 300ms;
 }
 header nav .socials {
@@ -147,7 +147,7 @@ main .container__banniere h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
-  color: #69a4da;
+  color: #E6A469;
   background: #fff;
   padding: 8px 0;
   border-radius: 20px;
@@ -199,8 +199,8 @@ main .souslochome h2 {
   margin-bottom: 40px;
 }
 main .souslochome h2 span {
-  color: #69a4da;
-  text-decoration: underline solid 3px #69a4da;
+  color: #E6A469;
+  text-decoration: underline solid 3px #E6A469;
 }
 main .souslochome p {
   margin: 0 auto;
@@ -215,6 +215,7 @@ main .souslochome p {
   transform: rotate(3deg);
 }
 main .test {
+  width: 100%;
   background: #F4F4FA;
   margin-top: 75px;
   padding-bottom: 75px;
@@ -229,11 +230,11 @@ main .test h2 {
   padding: 55px 0;
 }
 main .test h2 span {
-  color: #69a4da;
+  color: #E6A469;
 }
 main .test .container_bulles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-columns: repeat(auto-fill, 415px);
   justify-content: center;
   margin: auto;
   gap: 50px;
@@ -241,7 +242,8 @@ main .test .container_bulles {
 }
 main .test .container_bulles .bulles {
   background: #fff;
-  width: 100%;
+  margin: auto;
+  width: 92%;
   height: 385px;
   border-radius: 80px;
   border-top-left-radius: 0;
@@ -266,7 +268,7 @@ main .location h2 {
   padding: 55px 0;
 }
 main .location h2 span {
-  color: #69a4da;
+  color: #E6A469;
 }
 main .location .container_cards {
   width: 95%;
@@ -281,14 +283,14 @@ main .location .container_cards article {
   width: 100%;
   height: 475px;
   background: #fff;
-  box-shadow: 0px 3px 10px 1px #000;
+  box-shadow: 0px 0.4px 12px 1px #000;
   border-radius: 20px;
   position: relative;
 }
 main .location .container_cards article .number {
   position: absolute;
   padding: 15px 15px;
-  background: #69a3da;
+  background: #E6A469;
   border-radius: 50%;
   font-weight: 700;
   font-size: 25px;
@@ -305,6 +307,7 @@ main .location .container_cards article figure img {
   object-fit: fill;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  border-bottom: 1px solid;
 }
 main .location .container_cards article figure figcaption h3 {
   font-size: 25px;
@@ -349,7 +352,7 @@ main .location .container_cards article figure figcaption span {
   }
 }
 footer {
-  background: #F4F4FA;
+  background: #E6D0A8;
   width: 100%;
   height: 250px;
   margin-top: 100px;
@@ -379,7 +382,7 @@ footer .container_footer ul a {
   color: #000;
 }
 footer .container_footer ul a:hover {
-  color: #69a4da;
+  color: #fff;
   transition: 300ms;
 }
 footer .container_footer .social_footer {
@@ -412,7 +415,7 @@ footer .container_footer .social_footer ul a:nth-child(2) {
 }
 
 .end {
-  background: #c0c0c0;
+  background: #E6A469;
   width: 100%;
   height: 50px;
 }
@@ -424,6 +427,7 @@ footer .container_footer .social_footer ul a:nth-child(2) {
 }
 .end p span {
   color: #fff;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
