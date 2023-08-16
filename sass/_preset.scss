@@ -1,0 +1,18 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'BagelFatOne';
+    src: url(../assets/fonts/BagelFatOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Padauk';
+    src: url(../assets/fonts/Padauk-Regular.ttf);
+}
