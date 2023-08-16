@@ -109,6 +109,20 @@ header nav .socials a:hover {
   nav .mobile-direction .socials {
     width: 20%;
   }
+  nav .mobile-direction .socials a {
+    padding: 0 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav .mobile-direction .links {
+    width: 80%;
+  }
+  nav .mobile-direction .links ul {
+    gap: 30px;
+  }
+  nav .mobile-direction .socials a {
+    padding: 0 8px;
+  }
 }
 main .background_home {
   width: 100%;

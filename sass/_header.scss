@@ -90,6 +90,27 @@ header{
             }
             .socials{
                 width: 20%;
+                a{
+                    padding: 0 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px){
+    nav{
+        .mobile-direction{
+            .links{
+                width: 80%;
+                ul{
+                    gap: 30px;
+                }
+            }
+            .socials{
+                a{
+                    padding: 0 8px;
+                }
             }
         }
     }
