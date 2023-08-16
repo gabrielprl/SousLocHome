@@ -194,7 +194,7 @@ main .souslochome h2 {
   text-align: center;
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: calc(11.6px + 1vw);
+  font-size: calc(11.2px + 1vw);
   margin-top: 30px;
   margin-bottom: 40px;
 }
@@ -234,7 +234,7 @@ main .test h2 span {
 }
 main .test .container_bulles {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 415px);
+  grid-template-columns: repeat(auto-fill, 350px);
   justify-content: center;
   margin: auto;
   gap: 50px;
@@ -243,7 +243,7 @@ main .test .container_bulles {
 main .test .container_bulles .bulles {
   background: #fff;
   margin: auto;
-  width: 83%;
+  width: 95%;
   height: 385px;
   border-radius: 80px;
   border-top-left-radius: 0;
