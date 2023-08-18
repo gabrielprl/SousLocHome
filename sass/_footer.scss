@@ -75,3 +75,29 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 500px){
+    footer{
+        // background: #000;
+        .container_footer{
+            h3{
+                font-size: 18.5px;
+                text-align: center;
+            }
+            ul{
+                text-align: center;
+                a{
+                    font-size: 16px;
+                }
+            }
+            .social_footer{
+                ul{
+                    a{
+                        font-size: 18px;
+                        padding: 10px 12px;
+                    }
+                }
+            }
+        }
+    }
+}

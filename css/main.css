@@ -290,7 +290,7 @@ main .location .container_cards article {
 main .location .container_cards article .number {
   position: absolute;
   padding: 15px 15px;
-  background: #E6A469;
+  background: #E6D0A8;
   border-radius: 50%;
   font-weight: 700;
   font-size: 25px;
@@ -428,6 +428,23 @@ footer .container_footer .social_footer ul a:nth-child(2) {
 .end p span {
   color: #fff;
   font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+  footer .container_footer h3 {
+    font-size: 18.5px;
+    text-align: center;
+  }
+  footer .container_footer ul {
+    text-align: center;
+  }
+  footer .container_footer ul a {
+    font-size: 16px;
+  }
+  footer .container_footer .social_footer ul a {
+    font-size: 18px;
+    padding: 10px 12px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
