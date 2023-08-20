@@ -1,5 +1,5 @@
 footer{
-    background: #E6D0A8;
+    background: #87CEEB;
     width: 100%;
     height: 250px;
     margin-top: 100px;
@@ -39,7 +39,6 @@ footer{
                 gap: 25px;
                 a{
                     padding: 12px 17px;
-                    background: #69a4da;
                     border-radius: 5px;
                     font-size: 24px;
                     color: #fff;
@@ -61,7 +60,7 @@ footer{
     }
 }
 .end{
-    background: #E6A469;
+    background: #0A1929;
     width: 100%;
     height: 50px;
     p{
@@ -69,8 +68,9 @@ footer{
         padding-top: 15px;
         font-size: 14.5px;
         font-family: sans-serif;
+        color: #fff;
         span{
-            color: #fff;
+            color: #87CEEB;
             font-weight: 700
         }
     }

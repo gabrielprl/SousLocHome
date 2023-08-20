@@ -19,12 +19,13 @@
 header {
   width: 100%;
   height: auto;
+  background: #1E3A5F;
 }
 header nav {
   width: 100%;
   height: 100px;
   display: flex;
-  box-shadow: 0px 1px 24px 0px #050505;
+  box-shadow: 0px 1px 24px 0px #fff;
   position: relative;
 }
 header nav .logo {
@@ -62,10 +63,10 @@ header nav .links ul li a {
   text-decoration: none;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
-  color: #000;
+  color: #87CEEB;
 }
 header nav .links ul li a:hover {
-  color: #E6A469;
+  color: #fff;
   transition: 300ms;
 }
 header nav .socials {
@@ -79,7 +80,7 @@ header nav .socials a {
   flex-direction: row;
   font-size: calc(10px + 1.5vw);
   text-decoration: none;
-  color: #000;
+  color: #87CEEB;
   padding: 0 20px;
 }
 header nav .socials a:hover {
@@ -147,7 +148,7 @@ main .container__banniere h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
-  color: #E6A469;
+  color: #87CEEB;
   background: #fff;
   padding: 8px 0;
   border-radius: 20px;
@@ -199,8 +200,8 @@ main .souslochome h2 {
   margin-bottom: 40px;
 }
 main .souslochome h2 span {
-  color: #E6A469;
-  text-decoration: underline solid 3px #E6A469;
+  color: #87CEEB;
+  text-decoration: underline solid 3px #87CEEB;
 }
 main .souslochome p {
   margin: 0 auto;
@@ -209,7 +210,7 @@ main .souslochome p {
   max-width: 750px;
   width: 90%;
   font-family: sans-serif;
-  border: 3px solid #000;
+  border: 3px solid #1E3A5F;
   border-radius: 10px;
   padding: 10px 0;
   transform: rotate(3deg);
@@ -230,7 +231,7 @@ main .test h2 {
   padding: 55px 0;
 }
 main .test h2 span {
-  color: #E6A469;
+  color: #87CEEB;
 }
 main .test .container_bulles {
   display: grid;
@@ -268,7 +269,7 @@ main .location h2 {
   padding: 55px 0;
 }
 main .location h2 span {
-  color: #E6A469;
+  color: #87CEEB;
 }
 main .location .container_cards {
   width: 95%;
@@ -290,7 +291,7 @@ main .location .container_cards article {
 main .location .container_cards article .number {
   position: absolute;
   padding: 15px 15px;
-  background: #E6D0A8;
+  background: rgba(30, 58, 95, 0.9529411765);
   border-radius: 50%;
   font-weight: 700;
   font-size: 25px;
@@ -352,7 +353,7 @@ main .location .container_cards article figure figcaption span {
   }
 }
 footer {
-  background: #E6D0A8;
+  background: #87CEEB;
   width: 100%;
   height: 250px;
   margin-top: 100px;
@@ -396,7 +397,6 @@ footer .container_footer .social_footer ul {
 }
 footer .container_footer .social_footer ul a {
   padding: 12px 17px;
-  background: #69a4da;
   border-radius: 5px;
   font-size: 24px;
   color: #fff;
@@ -415,7 +415,7 @@ footer .container_footer .social_footer ul a:nth-child(2) {
 }
 
 .end {
-  background: #E6A469;
+  background: #0A1929;
   width: 100%;
   height: 50px;
 }
@@ -424,9 +424,10 @@ footer .container_footer .social_footer ul a:nth-child(2) {
   padding-top: 15px;
   font-size: 14.5px;
   font-family: sans-serif;
+  color: #fff;
 }
 .end p span {
-  color: #fff;
+  color: #87CEEB;
   font-weight: 700;
 }
 

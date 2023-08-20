@@ -21,7 +21,7 @@ main{
             text-align: center;
             text-transform: uppercase;
             font-family: sans-serif;
-            color: #E6A469;
+            color: #87CEEB;
             background: #fff;
             padding: 8px 0;
             border-radius: 20px;
@@ -76,8 +76,8 @@ main{
         margin-top: 30px;
         margin-bottom: 40px;
         span{
-          color: #E6A469;
-          text-decoration: underline solid 3px #E6A469;
+          color: #87CEEB;
+          text-decoration: underline solid 3px #87CEEB;
         }
       }
       p{
@@ -87,7 +87,7 @@ main{
         max-width: 750px;
         width: 90%;
         font-family: sans-serif;
-        border: 3px solid #000;
+        border: 3px solid #1E3A5F;
         border-radius: 10px;
         padding: 10px 0;
         transform: rotate(3deg);
@@ -107,7 +107,7 @@ main{
         font-size: calc(15px + 1vw);
         padding: 55px 0;
         span{
-          color: #E6A469;
+          color: #87CEEB;
         }
       }
       .container_bulles{
@@ -149,7 +149,7 @@ main{
       font-size: calc(15px + 1vw);
       padding: 55px 0;
       span{
-        color: #E6A469;
+        color: #87CEEB;
       }
     }
     .container_cards{
@@ -170,7 +170,7 @@ main{
         .number{
           position: absolute;
           padding: 15px 15px;
-          background: #E6D0A8;
+          background: #1e3a5ff3;
           border-radius: 50%;
           font-weight: 700;
           font-size: 25px;

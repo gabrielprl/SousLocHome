@@ -1,11 +1,12 @@
 header{
     width: 100%;
     height: auto;
+    background: #1E3A5F;
     nav{
         width: 100%;
         height: 100px;
         display: flex;
-        box-shadow: 0px 1px 24px 0px #050505;
+        box-shadow: 0px 1px 24px 0px #fff;
         position: relative;
         .logo{
             width: 25%;
@@ -42,9 +43,9 @@ header{
                         text-decoration: none;
                         font-family: 'OpenSans', sans-serif;
                         font-weight: 700;
-                        color: #000;
+                        color: #87CEEB;
                         &:hover{
-                            color: #E6A469;
+                            color: #fff;
                             transition: 300ms;
                         }
                     }
@@ -61,7 +62,7 @@ header{
                 flex-direction: row;
                 font-size: calc(10px + 1.5vw);
                 text-decoration: none;
-                color: #000;
+                color: #87CEEB;
                 padding: 0 20px;
                 &:hover{
                     animation: rotate-center 800ms ease-in-out;
