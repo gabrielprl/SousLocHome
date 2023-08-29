@@ -19,7 +19,7 @@
 header {
   width: 100%;
   height: auto;
-  background: #1E3A5F;
+  background: #fff;
 }
 header nav {
   width: 100%;
@@ -63,7 +63,7 @@ header nav .links ul li a {
   text-decoration: none;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
-  color: #87CEEB;
+  color: #1E3A5F;
 }
 header nav .links ul li a:hover {
   color: #fff;
@@ -80,10 +80,12 @@ header nav .socials a {
   flex-direction: row;
   font-size: calc(10px + 1.5vw);
   text-decoration: none;
-  color: #87CEEB;
+  color: #1E3A5F;
   padding: 0 20px;
 }
 header nav .socials a:hover {
+  color: #fff;
+  transition: 300ms;
   animation: rotate-center 800ms ease-in-out;
 }
 
@@ -97,12 +99,19 @@ header nav .socials a:hover {
     display: block;
     margin: auto;
   }
+  nav .logo a img {
+    height: auto;
+    width: 150px;
+    margin-top: -30px;
+    object-fit: cover;
+  }
   nav .mobile-direction {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 25px;
+    margin-top: -25px;
   }
   nav .mobile-direction .links {
     width: 80%;
