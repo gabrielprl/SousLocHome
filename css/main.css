@@ -19,7 +19,7 @@
 header {
   width: 100%;
   height: auto;
-  background: #fff;
+  background: red;
 }
 header nav {
   width: 100%;
@@ -296,17 +296,6 @@ main .location .container_cards article {
   box-shadow: 0px 0.4px 12px 1px #000;
   border-radius: 20px;
   position: relative;
-}
-main .location .container_cards article .number {
-  position: absolute;
-  padding: 15px 15px;
-  background: rgba(30, 58, 95, 0.9529411765);
-  border-radius: 50%;
-  font-weight: 700;
-  font-size: 25px;
-  font-family: sans-serif;
-  left: -15px;
-  top: -15px;
 }
 main .location .container_cards article figure {
   width: 100%;
