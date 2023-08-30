@@ -19,7 +19,7 @@
 header {
   width: 100%;
   height: auto;
-  background: red;
+  background: #F4F4FA;
 }
 header nav {
   width: 100%;
@@ -66,7 +66,7 @@ header nav .links ul li a {
   color: #1E3A5F;
 }
 header nav .links ul li a:hover {
-  color: #fff;
+  color: #87CFEB;
   transition: 300ms;
 }
 header nav .socials {
@@ -84,7 +84,7 @@ header nav .socials a {
   padding: 0 20px;
 }
 header nav .socials a:hover {
-  color: #fff;
+  color: #87CFEB;
   transition: 300ms;
   animation: rotate-center 800ms ease-in-out;
 }
@@ -292,7 +292,7 @@ main .location .container_cards {
 main .location .container_cards article {
   width: 100%;
   height: 475px;
-  background: #fff;
+  background: #1e3a5f;
   box-shadow: 0px 0.4px 12px 1px #000;
   border-radius: 20px;
   position: relative;
@@ -306,23 +306,31 @@ main .location .container_cards article figure img {
   object-fit: fill;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border-bottom: 1px solid;
+  border-bottom: #87CEEB 2px solid;
 }
 main .location .container_cards article figure figcaption h3 {
   font-size: 25px;
   font-family: "Padauk";
   text-align: center;
+  color: #fff;
 }
 main .location .container_cards article figure figcaption p {
   padding: 10px 15px;
-  height: 175px;
+  height: 150px;
+  margin-top: 30px;
   font-family: sans-serif;
+  color: #fff;
 }
 main .location .container_cards article figure figcaption span {
   font-family: "Padauk";
-  font-size: 20px;
+  font-size: 15.5px;
   display: flex;
   justify-content: center;
+  color: #fff;
+  background: #87CEEB;
+  width: 20%;
+  margin: auto;
+  border-radius: 20px;
 }
 
 .rotate-center:hover {
@@ -348,6 +356,54 @@ main .location .container_cards article figure figcaption span {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #0A1929;
+  inset: 0;
+  z-index: 1;
+  animation: disappear 3s step-end;
+  animation-fill-mode: forwards;
+}
+.loader .loader_center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.loader .loader_center .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #87CEEB;
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0.6;
+  transform: translateY(0);
+  animation: bounce 0.6s ease infinite;
+}
+.loader .loader_center .dot1 {
+  animation-delay: -0.2s;
+}
+.loader .loader_center .dot2 {
+  animation-delay: -0.1s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes disappear {
+  to {
+    opacity: 0;
+    z-index: -10;
   }
 }
 footer {
