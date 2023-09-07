@@ -224,14 +224,14 @@ main .souslochome p {
   padding: 10px 0;
   transform: rotate(3deg);
 }
-main .test {
+main .container_b {
   width: 100%;
   background: #F4F4FA;
   margin-top: 75px;
   padding-bottom: 75px;
   height: auto;
 }
-main .test h2 {
+main .container_b h2 {
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -239,10 +239,10 @@ main .test h2 {
   font-size: calc(15px + 1vw);
   padding: 55px 0;
 }
-main .test h2 span {
+main .container_b h2 span {
   color: #87CEEB;
 }
-main .test .container_bulles {
+main .container_b .container_bulles {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
   justify-content: center;
@@ -250,7 +250,7 @@ main .test .container_bulles {
   gap: 50px;
   width: 95%;
 }
-main .test .container_bulles .bulles {
+main .container_b .container_bulles .bulles {
   background: #fff;
   margin: auto;
   width: 95%;
@@ -260,11 +260,11 @@ main .test .container_bulles .bulles {
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px #000;
 }
-main .test .container_bulles .bulles h2 {
+main .container_b .container_bulles .bulles h2 {
   font-family: "Padauk", sans-serif;
   padding: 25px 0;
 }
-main .test .container_bulles .bulles p {
+main .container_b .container_bulles .bulles p {
   font-size: 16px;
   padding: 0 40px;
   font-family: "OpenSans", sans-serif;
