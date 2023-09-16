@@ -268,6 +268,7 @@ main .container_b .container_bulles .bulles p {
   font-size: 16px;
   padding: 0 40px;
   font-family: "OpenSans", sans-serif;
+  margin: 2px 0;
 }
 main .location h2 {
   text-align: center;
