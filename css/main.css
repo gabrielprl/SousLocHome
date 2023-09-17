@@ -263,6 +263,7 @@ main .container_b .container_bulles .bulles {
 main .container_b .container_bulles .bulles h2 {
   font-family: "Padauk", sans-serif;
   padding: 25px 0;
+  margin-bottom: -20px;
 }
 main .container_b .container_bulles .bulles p {
   font-size: 16px;
