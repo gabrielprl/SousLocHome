@@ -9,13 +9,13 @@
     <link rel="icon" href="./assets/icons/LOGO.png">
 </head>
 <body>
-    <div class="loader">
+    <!-- <div class="loader">
         <div class="loader_center">
             <div class="dot dot1"></div>
             <div class="dot dot2"></div>
             <div class="dot dot3"></div>
         </div>
-    </div>
+    </div> -->
     <header>
         <nav>
             <div class="logo">
@@ -86,7 +86,17 @@
             <div class="container_cards">
                 <article>
                     <figure>
-                        <img src="./assets/imgs/room1.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/room1.jpg" alt="image.room" class="img__slider active" />
+                            <img src="./assets/imgs/room2.jpg" alt="image.room" class="img__slider" />
+                            <img src="./assets/imgs/room3.jpg" alt="image.room" class="img__slider" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Love room</h3>
                             <span>24m²</span>
@@ -96,7 +106,15 @@
                 </article>
                 <article>
                     <figure>
-                        <img src="./assets/imgs/room2.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/room3.jpg" alt="image.room" class="img__slider active" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Cinéma room</h3>
                             <span>24m²</span>
@@ -106,7 +124,15 @@
                 </article>
                 <article>
                     <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/indispo.jpg" alt="image.room" class="img__slider active" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Room clasique</h3>
                             <span>24m²</span>
@@ -116,7 +142,15 @@
                 </article>
                 <article>
                     <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/indispo.jpg" alt="image.room" class="img__slider active" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Room clasique</h3>
                             <span>24m²</span>
@@ -126,7 +160,15 @@
                 </article>
                 <article>
                     <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/indispo.jpg" alt="image.room" class="img__slider active" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Room clasique</h3>
                             <span>24m²</span>
@@ -136,26 +178,15 @@
                 </article>
                 <article>
                     <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
-                        <figcaption>
-                            <h3>Room clasique</h3>
-                            <span>24m²</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ex quia quas illo cumque quasi veritatis non consectetur impedit omnis cupiditate in corrupti, repudiandae possimus quos quam unde doloremque aspernatur.</p>
-                        </figcaption>
-                    </figure>
-                </article><article>
-                    <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
-                        <figcaption>
-                            <h3>Room clasique</h3>
-                            <span>24m²</span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ex quia quas illo cumque quasi veritatis non consectetur impedit omnis cupiditate in corrupti, repudiandae possimus quos quam unde doloremque aspernatur.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article>
-                    <figure>
-                        <img src="./assets/imgs/indispo.jpg" alt="image.room">
+                        <div class="slider">
+                            <img src="./assets/imgs/indispo.jpg" alt="image.room" class="img__slider active" />
+                        <div class="suivant">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="precedent">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </div>
+                        </div>
                         <figcaption>
                             <h3>Room clasique</h3>
                             <span>24m²</span>
@@ -195,5 +226,6 @@
     <div class="end">
         <p>© Copyright 2023 | Tous droits reservés | by <span>souslochome</span></p>
     </div>
+    <script src="./js/slider.js"></script>
 </body>
 </html>

@@ -160,11 +160,11 @@ main{
       margin: auto;
       display: grid;
       justify-content: center;
-      grid-template-columns: repeat(auto-fill, 350px);
+      grid-template-columns: repeat(auto-fill, 450px);
       gap: 75px;
       article{
         width: 100%;
-        height: 475px;
+        height: 600px;
         background: #1e3a5f;
         box-shadow: 0px 0.4px 12px 1px #000;
         border-radius: 20px;
@@ -173,13 +173,15 @@ main{
           width: 100%;
           img{
             width: 100%;
-            height: 225px;
-            object-fit: fill;
+            height: 350px;
+            object-fit: cover;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom: #87CEEB 2px solid;
           }
           figcaption{
+            // margin-top: 45px;
+            height: auto;
             h3{
               font-size: 25px;
               font-family: 'Padauk';

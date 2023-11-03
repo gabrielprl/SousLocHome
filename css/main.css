@@ -288,12 +288,12 @@ main .location .container_cards {
   margin: auto;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-columns: repeat(auto-fill, 450px);
   gap: 75px;
 }
 main .location .container_cards article {
   width: 100%;
-  height: 475px;
+  height: 600px;
   background: #1e3a5f;
   box-shadow: 0px 0.4px 12px 1px #000;
   border-radius: 20px;
@@ -304,11 +304,14 @@ main .location .container_cards article figure {
 }
 main .location .container_cards article figure img {
   width: 100%;
-  height: 225px;
-  object-fit: fill;
+  height: 350px;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom: #87CEEB 2px solid;
+}
+main .location .container_cards article figure figcaption {
+  height: auto;
 }
 main .location .container_cards article figure figcaption h3 {
   font-size: 25px;
@@ -333,6 +336,63 @@ main .location .container_cards article figure figcaption span {
   width: 20%;
   margin: auto;
   border-radius: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  height: 40vh;
+  position: relative;
+}
+
+.slider img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.suivant, .precedent {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider .precedent,
+.slider .suivant {
+  color: #87CEEB;
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slider:hover .precedent,
+.slider:hover .suivant {
+  opacity: 1;
+}
+
+.suivant {
+  right: 1rem;
+}
+
+.precedent {
+  left: 1rem;
 }
 
 .rotate-center:hover {
