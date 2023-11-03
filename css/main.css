@@ -340,7 +340,7 @@ main .location .container_cards article figure figcaption span {
 
 @media screen and (max-width: 380px) {
   figcaption {
-    margin-top: 50px;
+    margin-top: 90px;
   }
 }
 * {
@@ -350,7 +350,7 @@ main .location .container_cards article figure figcaption span {
 }
 
 .slider {
-  height: 40vh;
+  height: 37vh;
   position: relative;
 }
 
