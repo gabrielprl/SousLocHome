@@ -212,8 +212,8 @@ main{
     }
   }
 }
-// @media screen and (max-width: 380px){
-//   figcaption{
-//     margin-top: 30px;
-//   }
-// }
+@media screen and (max-width: 500px){
+  figcaption{
+    margin-top: 20px;
+  }
+}

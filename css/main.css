@@ -338,6 +338,11 @@ main .location .container_cards article figure figcaption span {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  figcaption {
+    margin-top: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
